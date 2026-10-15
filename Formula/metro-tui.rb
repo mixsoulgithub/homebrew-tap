@@ -6,19 +6,19 @@ class MetroTui < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/mixsoulgithub/metro-tui/releases/download/v0.1.2/metro-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "e6c65ede9c715097ec78bf2e5c67a29543fb3705bfbdad41cc112b9f40647f31"
+      url "https://github.com/mixsoulgithub/metro-tui/releases/download/v0.1.3/metro-tui-aarch64-apple-darwin.tar.gz"
+      sha256 "5260ed942712e5fef5de624042a0054a5937d3a7c3045d44aa3a08195d630b15"
     end
     on_intel do
-      url "https://github.com/mixsoulgithub/metro-tui/releases/download/v0.1.2/metro-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "ec7c6fa02018f2b3de03bc61aacb0dd2411d74a2bfdf6797ec355afdf0310e04"
+      url "https://github.com/mixsoulgithub/metro-tui/releases/download/v0.1.3/metro-tui-x86_64-apple-darwin.tar.gz"
+      sha256 "b955adc56f0714d4742d7b3bb26c30fa114e17acb21f7b7112cd5fb636d113b3"
     end
   end
 
   on_linux do
     # 静态链接版,任何 x86_64 Linux 都能跑
-    url "https://github.com/mixsoulgithub/metro-tui/releases/download/v0.1.2/metro-tui-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "9ae79b4afc269e6e447719141abd0dc189299067953a8f6f2c59f8bcbcbc3c19"
+    url "https://github.com/mixsoulgithub/metro-tui/releases/download/v0.1.3/metro-tui-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "52a55f902d99f7ca4dbfad415c6d2f90285a435f751fcf8adbb81ea5862ae859"
   end
 
   def install
