@@ -1,24 +1,24 @@
 class GraphTui < Formula
   desc "Graph renderer and editor for the terminal: box-drawing edges, orthogonal routing"
   homepage "https://github.com/mixsoulgithub/graph-tui"
-  version "0.9.0"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mixsoulgithub/graph-tui/releases/download/v0.9.0/graph-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "8e67231b2d2b31df8b41dc7467573c2543ceb01a11374c270a64c446e6e8d17e"
+      url "https://github.com/mixsoulgithub/graph-tui/releases/download/v0.10.0/graph-tui-aarch64-apple-darwin.tar.gz"
+      sha256 "a8f9765938e0c6766e205d300a05b192f85b07b413050b552edf747beeb8fa16"
     end
     on_intel do
-      url "https://github.com/mixsoulgithub/graph-tui/releases/download/v0.9.0/graph-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "34882e525619ae959fdaad7ce8bcfa526a6e980d16294ac4129bb7e80b2abb44"
+      url "https://github.com/mixsoulgithub/graph-tui/releases/download/v0.10.0/graph-tui-x86_64-apple-darwin.tar.gz"
+      sha256 "9198753bf6eb5876da1dcd8a4c66dc7f0216dd613d89c349ea1e5b63097673d1"
     end
   end
 
   on_linux do
     # 静态链接版,任何 x86_64 Linux 都能跑
-    url "https://github.com/mixsoulgithub/graph-tui/releases/download/v0.9.0/graph-tui-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "567248f94ce48fc65ee5a07098705d01cd408d0ddabe329151c15d2311e7f3dc"
+    url "https://github.com/mixsoulgithub/graph-tui/releases/download/v0.10.0/graph-tui-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "2bcddaba2573faa2ec77bcbb2f3424cb0a7ca113b1e7034b8a180490596f26f0"
   end
 
   def install
